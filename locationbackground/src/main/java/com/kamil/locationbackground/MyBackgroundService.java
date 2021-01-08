@@ -58,6 +58,7 @@ public class MyBackgroundService extends Service {
 
     @Override
     public void onCreate() {
+        System.out.println("");
         fusedLocationProviderClient = LocationServices.getFusedLocationProviderClient(this);
         locationCallback = new LocationCallback(){
             @Override

@@ -12,6 +12,7 @@ public class Common {
     public static final String KEY_REQUSTING_LOCATION_UPDATES = "LocationUpdatesEnable";
 
     public static String getLocationText(Location mLocation) {
+        System.out.println("");
         return mLocation == null ? "Unknown Location : " : new StringBuilder()
                 .append(mLocation.getLatitude())
                 .append("/")

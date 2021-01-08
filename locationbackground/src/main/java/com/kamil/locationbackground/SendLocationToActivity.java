@@ -6,6 +6,7 @@ public class SendLocationToActivity {
     private Location location;
 
     public SendLocationToActivity(Location location) {
+        System.out.println("");
         this.location = location;
     }
 
